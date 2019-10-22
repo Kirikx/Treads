@@ -37,8 +37,9 @@ public class TestTread {
     }
 
     private static void var1(float arr[]) {
-        for (int i = 0; i < arr.length; i++)
-            arr[i] = (float) (arr[i] * Math.sin(0.2f + i / 5) * Math.cos(0.2f + i / 5) * Math.cos(0.4f + i / 2));
+//        for (int i = 0; i < arr.length; i++)
+//            arr[i] = (float) (arr[i] * Math.sin(0.2f + i / 5) * Math.cos(0.2f + i / 5) * Math.cos(0.4f + i / 2));
+        convert (arr, 0);
     }
 
     private static void convert(float arr[], int h) { // Применение конвертера со смещением позволяет добится идентичности результатов вычисления
